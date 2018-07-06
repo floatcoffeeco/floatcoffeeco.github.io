@@ -1865,7 +1865,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #307AB2;
 		}
 
 	select {
@@ -1957,7 +1957,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #307AB2;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2802,7 +2802,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			/*background-color: #21b2a6;*/
+			background-color: #307AB2;
 			color: #c8ece9;
 		}
 
@@ -2856,7 +2857,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #307AB2;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2872,7 +2873,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #307AB2;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2968,7 +2969,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background-color: #21b2a6;
+			background-color: #307AB2;
 			color: #d3d4e4;
 		}
 
@@ -3339,7 +3340,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #307AB2;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3820,10 +3821,10 @@ input, select, textarea {
 
 		}
 		#main.location > header{
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner-location.jpg");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner-location.jpg");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner-location.jpg");
-			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner-location.jpg");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner-location.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner-location.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner-location.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner-location.jpg");
 
 		}
 		#main.coffee > header{
